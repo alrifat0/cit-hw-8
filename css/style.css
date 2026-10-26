@@ -1,0 +1,175 @@
+/* all common css Start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+
+ul,ol{
+list-style-type: none;
+}
+
+a{
+text-decoration: none;
+}
+.header{
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+
+
+/* all common css end */
+
+/* header part start  */
+
+#headerPart{
+    padding: 50px 0;
+    background-color: #ECEDEF;
+}
+
+.menu{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.all ul{
+    display: flex;
+    column-gap: 40px;
+    
+
+
+}
+
+.all ul a{
+color: #242B36;
+
+font-weight: 400;
+
+}
+
+.headerBtn a{
+    border: 1px solid #417D6E;
+    border-radius: 500px;
+    padding: 10px 25px;
+    font-weight: 400;
+    color: #242B36;
+    transition: all linear 0.5s;
+    margin: 10px;
+
+}
+.headerBtn a:hover{
+
+    background: green;
+    color: #ECEDEF;
+
+}
+
+
+/* banner part start  */
+
+
+.bannerGap{
+    padding: 75px;
+   display: flex;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.groupOne{
+    padding: 100px 75px 100px 0px;
+}
+
+.banner{
+    width: 510px;
+}
+
+.banner h2{
+    font-size: xx-large;
+    
+}
+
+.bannerBtn a{
+     border: 1px solid #417D6E;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 400;
+    color: #242B36;
+    transition: all linear 0.5s;
+    margin: 0px 20px 0px 0px;
+
+}
+
+.bannerBtn a:hover{
+
+    background: green;
+    color: #ECEDEF;
+
+}
+
+.bannerLogo{
+    height: 300px;
+    width: 300px;
+}
+
+ .BtnmoreOne{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+} 
+ 
+.btnOne a{
+     border: 1px solid #417D6E;
+    border-radius: 8px;
+    padding: 10px 4px;
+    font-weight: 400;
+    color: #242B36;
+    transition: all linear 0.5s;
+    margin: 10px;
+
+}
+ .BtnmoreTwo{
+  
+    
+    display: flex;
+    
+    padding: 0px 50px 50px 0px;
+}
+
+.BtnmoreOne a:hover{
+
+    background: green;
+    color: #ECEDEF;
+
+}
+
+.BtnmoreTwo a:hover{
+
+    background: green;
+    color: #ECEDEF;
+
+}
+
+
+
+.BtnmoreTwo a{
+    border: 1px solid #417D6E;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-weight: 400;
+    color: #242B36;
+    transition: all linear 0.5s;
+    margin: 10px;
+
+}
